@@ -1,0 +1,8 @@
+<launch>
+    <node name="tcp_client" pkg = "wtrmaster" type = "tcp_client">
+    </node>
+    <node name="master" pkg = "wtrmaster" type = "master">
+    </node>
+    <node name="keyControl" pkg = "wtrmaster" type = "keyControl">
+    </node>
+</launch>

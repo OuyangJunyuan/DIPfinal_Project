@@ -1,0 +1,6 @@
+<launch>
+    <node name="server_node" pkg = "wtrslave" type = "server_node">
+    </node>
+    <node name="formate_slave" pkg = "wtrslave" type = "slave">
+    </node>
+</launch>
